@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @copyright: Copyright © 2020 Seis10 Services. All rights reserved.
+ * @author   : Laura Trejo <laura@seis10.com>
+ * @site : https://seis10.com/
+ */
+-->
+<csp_whitelist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Csp/etc/csp_whitelist.xsd">
+    <policies>
+        <policy id="script-src">
+            <values>
+				<value id="google.com" type="host">*.google.com</value>
+				<value id="google.co.in" type="host">*.google.co.in</value>
+				<value id="facebook.com" type="host">*.facebook.com</value>
+				<value id="googleadservices" type="host">*.googleadservices.com</value>
+				<value id="google-analytics" type="host">*.google-analytics.com</value>
+                <value id="twimg" type="host">*.twimg.com</value>
+                <value id="gstatic" type="host">*.gstatic.com</value>
+                <value id="fontawesome" type="host">*.fontawesome.com</value>
+				<value id="connect-facebook" type="host">https://connect.facebook.net</value>
+				<value id="paypalobjects" type="host">*.paypalobjects.com</value>
+				<value id="paypal" type="host">*.paypal.com</value>
+				<value id="youtube.com" type="host">*.youtube.com</value>
+                <value id="bootstapcdn" type="host">*.bootstrapcdn.com</value>
+			</values>
+        </policy>
+        <policy id="style-src">
+            <values>
+                <value id="googleapis" type="host">*.googleapis.com</value>
+				<value id="google.com" type="host">*.google.com</value>
+				<value id="google.co.in" type="host">*.google.co.in</value>
+				<value id="facebook.com" type="host">*.facebook.com</value>
+                <value id="twimg" type="host">*.twimg.com</value>
+                <value id="gstatic" type="host">*.gstatic.com</value>
+                <value id="typekit" type="host">*.typekit.net</value>
+                <value id="fontawesome" type="host">*.fontawesome.com</value>
+				<value id="youtube.com" type="host">*.youtube.com</value>
+                <value id="bootstapcdn" type="host">*.bootstrapcdn.com</value>
+            </values>
+        </policy>
+        <policy id="img-src">
+            <values>
+				<value id="gstatic" type="host">*.gstatic.com</value>
+				<value id="google.com" type="host">*.google.com</value>
+				<value id="google.co.in" type="host">*.google.co.in</value>
+				<value id="facebook.com" type="host">https://www.facebook.com</value>
+                <value id="googleadservices" type="host">*.googleadservices.com</value>
+                <value id="google-analytics" type="host">*.google-analytics.com</value>
+                <value id="paypal" type="host">*.paypal.com</value>
+                <value id="twimg" type="host">*.twimg.com</value>
+                <value id="vimeocdn" type="host">*.vimeocdn.com</value>
+                <value id="data" type="host">'self' data:</value>             
+				<value id="connect-base" type="host">*.connect.facebook.net</value>
+				<value id="stats-doubleclick" type="host">https://stats.g.doubleclick.net</value>
+				<value id="youtube.com" type="host">*.youtube.com</value>								
+			</values>
+        </policy>
+        <policy id="connect-src">
+            <values>
+                <value id="paypal" type="host">*.paypal.com</value>
+                <value id="twimg" type="host">*.twimg.com</value>
+				<value id="google.com" type="host">*.google.com</value>
+				<value id="google.co.in" type="host">*.google.co.in</value>
+				<value id="facebook.com" type="host">*.facebook.com</value>
+                <value id="mercadopago.com" type="host">*.mercadopago.com</value>
+                <value id="data" type="host">'self' data:</value>  
+            </values>
+        </policy>
+        <policy id="font-src">
+            <values>
+				<value id="google.com" type="host">*.google.com</value>
+				<value id="google.co.in" type="host">*.google.co.in</value>
+				<value id="facebook.com" type="host">*.facebook.com</value>
+                <value id="gstatic" type="host">*.gstatic.com</value>
+                <value id="typekit" type="host">*.typekit.net</value>
+                <value id="twimg" type="host">*.twimg.com</value>
+                <value id="googleapis" type="host">*.googleapis.com</value>
+                <value id="bootstapcdn" type="host">*.bootstrapcdn.com</value>
+            </values>
+        </policy>
+        <policy id="frame-src">
+            <values>
+				<value id="google.com"       type="host">https://www.google.com</value>
+				<value id="google.co.in"     type="host">https://www.google.co.in</value>
+				<value id="facebook.com"     type="host">https://www.facebook.com</value>
+                <value id="mercadolibre.com" type="host">*.mercadolibre.com</value>
+                <value id="cardinalcommerce.com"    type="host">*.cardinalcommerce.com</value>
+                <value id="authorize.net"    type="host">*.authorize.net</value>
+            </values>
+        </policy>
+        <policy id="form-action">
+            <values>
+                <value id="facebook.com" type="host">*.facebook.com</value>
+            </values>
+        </policy>
+    </policies>
+</csp_whitelist>

@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * @copyright: Copyright © 2020 Seis10 Services. All rights reserved.
+ * @author   : Laura Trejo <laura@seis10.com>
+ * @site : https://seis10.com/
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Seis10_Csp" setup_version="1.0.0" data_version="1.0.0"/>
+</config>
